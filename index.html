@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="portafolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+</head>
+<body>
+    <h1>Robert Hurtado</h1>
+    <p class="bio">Ingeniero electricista y estudiante de desarrollo web</p>
+    <hr>
+    <img src="gatito.png"/>
+    <br/>
+    <ul class="listas">
+        <li><a href="#experiencia">Experiencias profesionales</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#sociales">Perfiles sociales</a></li>
+        <li><a href="#habilidades">Habilidades y conocimientos</a></li>
+        <li> <a href="#contacto">Contactar</a></li>
+    </ul>
+
+    <h2 id="experiencia">Experiencias profesionales</h2>
+    <table>
+        <tbody>
+
+            
+        </tbody>
+        <tr>
+          <th>Empresa</th>
+          <th>Cargo</th>
+          <th>Localización</th>
+        </tr>
+        <tr>
+          <td>KEPCO KPS</td>
+          <td>Operador</td>
+          <td>Punta del Tigre / San José, Uruguay</td>
+        </tr>
+        <tr>
+          <td>PDVSA Desarrollos Urbanos</td>
+          <td>Ingeniero de Proyectos</td>
+          <td>Caracas, Venezuela</td>
+        </tr>
+        <tr>
+            <td>PROSERCA Servicios Profesionales</td>
+            <td>Asistente de Ingeniería</td>
+            <td>Caracas, Venezuela</td>
+          </tr>
+      </table> 
+
+
+
+    <hr>
+
+    <h2 id="habilidades">Habilidades y conocimientos</h2>
+    <ul class="listas">
+        <li>Desarrollo web: HTML Boostrap, Dojo, responsive design, WordPress, usabilidad, CoffeScript, etc.
+        </li>
+        <li>Analítica web/Métricas: Google Analytics, Mixpanel, segnment.io, etc.</li>
+        <li>Gestión: SCRUM, gestiuón de comuniodades y organización de eventos, gestión de equipos, etc.</li>
+        <li>Emprendimiento: startups, Lean Startup, etc.</li>
+        <li>Aplicaciones móviles: Phonegap</li>
+        <li>Marketing: email marketing, redes sociales, gamificación, murture marketing, lead scoring, etc.</li>
+        <li>Sistemas de información geográfica (GIS): ArcGIS APIs</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="educacion">Educación</h2>
+    <pre>
+        Titulo                          Entidad                            Promoción
+
+        Desarrollo web                  Plan Ceibal (Jóvenes a programar)  2019
+        Curso: creación de empresas     Escuela de Negocios                2009
+    </pre>
+    <hr>
+
+    <h2 id="sociales">Perfiles Sociales</h2>
+
+    <ul class="redes">
+        <li><a href="https://www.instagram.com/paraunatiernaamiga/">Instagram</a></li>
+        <li><a href="https://twitter.com/esequeva">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/robert-hurtado-739a45140/">Linkedin</a></li>
+    </ul>
+
+    <hr>
+    <h2 id="contacto">Contactar</h2>
+    <form class="formulario" action="">
+        <label for="para">Para:</label>
+        <input type="text" id="para" name="name_para">
+
+        <br>
+        <br>
+
+        <label for="tema">Tema:</label>
+        <select name="tema" id="tema" value="default">
+            <option value="default">--Elige Un Tema--</option>
+            <option value="consulta">Consulta</option>
+            <option value="propuesta">Propuesta</option>
+            <option value="reporte">Reporte</option>
+            <option value="otro">Otro</option>
+        </select></form>
+
+        <br>
+
+        <label for="asunto">Para:</label>
+        <input type="text" id="asunto" name="name_asunto">
+
+        <br>
+        <br>
+
+        <label for="cuerpo">Cuerpo:</label>
+        <textarea name="cuerpo" id="cuerpo" cols="10" rows="1" maxlength="256"></textarea> <button>Enviar</button>
+
+    </form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* Con los conocimientos adquiridos durante el transcurso de estas primeras semanas deberás 
+crear una página web personal mostrando y hablando sobre tu experiencia, en otras palabras, armar un portafolio.
+
+En la realización del proyecto ten en cuenta cumplir con los siguientes requerimientos:
+
+    Debes crear todo el código CSS en una hoja de estilos externa
+    El código CSS debe contener al menos 3 selectores que hagan referencia a clases
+    El código CSS debe contener al menos 2 selectores que hagan referencia a elementos de la página a través de su id
+    La página debe contener al menos una imagen
+
+Puedes utilizar como base para el proyecto el código realizado en el 2.5.
+Taller: Mi primer CV y formulario de contacto en HTML. */
+
+#sociales, #experiencia, #educacion, #contacto, #habilidades{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 2em;
+    background-color:pink;
+}
+
+p.bio, h1{
+    font-size: 40px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.listas{
+    background-color: blueviolet;
+}
+
+.formulario{
+    font-size: 2em;
+}
+
+.redes{
+    color: pink;
+}
+
+body{
+    background-color: pink;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
