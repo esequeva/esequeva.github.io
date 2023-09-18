@@ -37,7 +37,7 @@ img{
         border-radius: 25px;
         background-image: url(galaxy.jpg);
         padding: 20px;
-        align-items: center;
+        text-align: center;
         width: auto;
         height: auto;
 }
