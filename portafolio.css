@@ -31,7 +31,8 @@ h2{
 }
 
 body{
-    background-image: url(galaxy.jpg);
+    background-image: url(https://img.freepik.com/free-photo/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-99446.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
     background-attachment: scroll;}
 img{
     display: block;
