@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-imageback
 #sociales, #experiencia, #educacion, #contacto, #habilidades{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     font-size: 2em;
@@ -9,8 +8,8 @@ imageback
 
 p.bio, h1{
     font-size: 50px;
-    background-color: black;
-    color: blanchedalmond;
+    background-color: rgb(245, 157, 157);
+    color: rgb(170, 155, 133);
     text-align: center;
 }
 
