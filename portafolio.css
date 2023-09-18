@@ -34,8 +34,9 @@ body{
     background-image: url(https://img.freepik.com/free-photo/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-99446.jpg?size=626&ext=jpg);
     background-attachment: scroll;}
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+        border-radius: 25px;
+        background: #73AD21;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
 }
