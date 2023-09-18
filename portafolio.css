@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+imageback
 #sociales, #experiencia, #educacion, #contacto, #habilidades{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     font-size: 2em;
@@ -31,8 +32,8 @@ h2{
 }
 
 body{
-    background-color: pink;
-}
+    background-image: url(https://img.freepik.com/free-photo/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-99446.jpg?size=626&ext=jpg);
+    color: fffff;
 
 img{
     display: block;
