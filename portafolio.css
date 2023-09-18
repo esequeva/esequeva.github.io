@@ -35,8 +35,9 @@ body{
     background-attachment: scroll;}
 img{
         border-radius: 25px;
-        background: #73AD21;
+        background-image: url(galaxy.jpg);
         padding: 20px;
+        align-items: center;
         width: auto;
         height: auto;
 }
