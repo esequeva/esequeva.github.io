@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+imageback
 #sociales, #experiencia, #educacion, #contacto, #habilidades{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     font-size: 2em;
@@ -32,6 +33,7 @@ h2{
 
 body{
     background-color: pink;
+    background-image: url(https://pixabay.com/es/photos/v%C3%ADa-l%C3%A1ctea-cielo-estrellado-2971669/);
 }
 
 img{
